@@ -1,0 +1,117 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+}
+
+.navbar .menu {
+    display: inline-block;
+    list-style-type: none;
+    float: right;
+    margin-top: -57px;
+    margin-left: 10px;
+}
+.navbar .max-width{
+  margin-top: 22px;
+}
+nav ul li a:hover{
+  color: white;
+}
+
+.navbar .menu li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #292525;
+}
+
+
+
+/* Grid */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+    
+  }
+  
+  .grid-item {
+    display: inline-block;
+    flex-basis: 90%;
+    width: 200px;
+    /* min-width: 150px; */
+    padding: 31px;
+    margin: 10px;
+    border: solid 1px #fdfdfd;
+    /* border-radius: 40px; */
+    box-shadow: 10px 10px 10px #2a271d;
+  }
+
+  .grid-item img {
+    width: 201px;
+    height: 175px;
+    object-fit: scale-down;
+    display: inline-block;
+    padding: 0px;
+    margin: -18px;
+
+  }
+
+  .mycart {
+    color: rgb(13, 3, 145);
+  }
+  
+.mycart:hover{
+color: rgb(199, 97, 14)
+}
+
+/* $ sign */
+span{
+    color: green;
+}
+
+/* footer css */
+  
+#footer {
+  font-size: 15px;
+height: 3rem;
+margin-top: 2rem;
+margin-bottom: 5rem;
+color: #423f3f;
+/* text-shadow: 0 1px rgb(255, 254, 254); */
+font-family: 'Caveat';
+
+text-align: center;
+letter-spacing: .2rem;
+text-transform: uppercase;
+}
+/* hover effect for footer */
+#footer .footer-links a:hover {
+color: rgb(255, 255, 255);
+}
+/* logo color edit */
+.green{
+color: rgb(13, 14, 13)
+}
+.blue{
+color: rgb(11, 11, 12)
+}
+
+#footer a {
+text-decoration: none;
+color: #292525;
+
+}
+.darkgrey{
+  color: rgb(64, 62, 62);
+  font-size: 67px;
+  margin-left: 20px;
+}
+
+#footer    .Social-Media a:hover{
+  color: rgb(255, 255, 255);
+}
